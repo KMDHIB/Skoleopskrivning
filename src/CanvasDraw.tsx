@@ -41,7 +41,7 @@ const CanvasDraw: React.FC = () => {
     };
   }, [isDrawing]);
 
-  return <canvas ref={canvasRef} width={800} height={400} style={{ border: '1px solid dodgerblue' }} />;
+  return <canvas ref={canvasRef} width={window.innerWidth * 2 / 3} height={400} style={{ border: '1px solid dodgerblue' }} />;
 };
 
 export default CanvasDraw;
