@@ -1,22 +1,21 @@
 import logo from './assets/uvdata.svg'
 import './App.css'
+import CanvasDraw from './CanvasDraw'
 
 function App() {
 
   return (
     <>
       <div>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://uvdata.dk" target="_blank">
           <img src={logo} className="logo react" alt="UVdata" />
         </a>
       </div>
-      <h1>Skoleindskrivning</h1>
-      <p>Velkommen til skoleindskrivning</p>
+      <h1>Skoleopskrivning</h1>
+      <p>Velkommen til skoleopskrivning</p>
+      <p>Her kan du opskrive dig på UHAskole</p>
+      <CanvasDraw />
       <p>Vi glæder os til at se dig</p>
-      <p>Vi har brug for nogle oplysninger om dig</p>
-      <p>Indtast venligst dit fulde navn</p>
-      <p>Indtast venligst din fødselsdato</p>
-      <p>Indtast venligst din adresse</p>
     </>
   )
 }
