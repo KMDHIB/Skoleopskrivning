@@ -1,5 +1,5 @@
 import logo from './assets/uvdata.svg'
-import './App.css'
+import './App.scss'
 import CanvasDraw from './CanvasDraw'
 
 function App() {
